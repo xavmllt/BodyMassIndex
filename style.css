@@ -1,0 +1,72 @@
+*{
+    margin: O;
+    padding: O;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,101,170,1) 62%, rgba(0,212,255,1) 100%);
+}
+
+#formu{
+    margin-bottom: 100px;
+    border: 2px solid rgb(212, 191, 191);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+    margin-top: 220px;
+    height: 500px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background: radial-gradient(at center, rgb(223, 127, 127), lightblue);
+    box-shadow: 2px 3px 1px 4px;
+}
+
+legend{
+    font-size: 30px;
+    color: white;
+    margin-left: 80px;
+}
+
+.ligne{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#valid{
+    height: 40px;
+    border-radius: 10px;
+    background-color: green;
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 78px;
+}
+
+#ligne5{
+    margin-top: 25px;
+}
+
+#imctxt{
+    height: 45px;
+    text-align: center;
+    font-size: 25px;
+}
+
+input{
+    text-align: center;
+}
+
+#age, #taille, #poids{
+    border-radius: 10px;
+    width: 25%;
+    height: 25px;
+    margin-left: 110px;
+    font-size: 15px;
+    margin-top: 5px;
+    background: rgb(239, 159, 130);
+}
