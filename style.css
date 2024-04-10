@@ -1,72 +1,48 @@
-*{
-    margin: O;
-    padding: O;
-}
-
-body{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,101,170,1) 62%, rgba(0,212,255,1) 100%);
-}
-
-#formu{
-    margin-bottom: 100px;
-    border: 2px solid rgb(212, 191, 191);
+form{
     border-radius: 10px;
-    display: flex;
-    justify-content: center; 
-    margin-top: 220px;
     height: 500px;
     width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    background: radial-gradient(at center, rgb(223, 127, 127), lightblue);
-    box-shadow: 2px 3px 1px 4px;
+    margin: 150px auto;
+    background-image: linear-gradient(to right top, #051937, #004a7a, #0081a0, #00b896, #12eb5d);
+    box-shadow: 3px 3px 1px 1px;
 }
-
-legend{
-    font-size: 30px;
-    color: white;
-    margin-left: 80px;
-}
-
-.ligne{
+form fieldset {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: 10px;
-    font-size: 25px;
+    border: none;
+}
+form fieldset legend {
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    font-weight: 800;
+}
+form fieldset label {
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
     padding: 5px;
 }
-
-#valid{
-    height: 40px;
-    border-radius: 10px;
-    background-color: green;
-    margin-top: 20px;
-    width: 150px;
-    margin-left: 78px;
-}
-
-#ligne5{
-    margin-top: 25px;
-}
-
-#imctxt{
-    height: 45px;
-    text-align: center;
-    font-size: 25px;
-}
-
-input{
-    text-align: center;
-}
-
-#age, #taille, #poids{
-    border-radius: 10px;
-    width: 25%;
-    height: 25px;
-    margin-left: 110px;
+form fieldset input {
+    height: 20px;
     font-size: 15px;
-    margin-top: 5px;
-    background: rgb(239, 159, 130);
+    font-weight: 600;
 }
+form fieldset input[type="button"] {
+    margin-top: 20px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+}
+form fieldset textarea {
+    margin-top: 50px;
+    height: 40px;
+    width: 250px;
+    border: 3px solid rgb(27, 27, 40);
+    font-size: 20px;
+    font-weight: 700;
+}
+
